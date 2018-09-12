@@ -1,6 +1,6 @@
 {
   "name": "node-time-ago-ro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple time ago function for node that actually works!",
   "main": "index.js",
   "scripts": {
