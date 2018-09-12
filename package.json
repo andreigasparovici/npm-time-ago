@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andreigasparovici/node-time-ago.git"
+    "url": "git+https://github.com/andreigasparovici/node-time-ago-ro.git"
   },
   "keywords": [
     "time",
@@ -17,9 +17,9 @@
   "author": "Andrei Gasparovici <andreigasparovici1@gmail.com> (https://github.com/andreigasparovici)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andreigasparovici/node-time-ago/issues"
+    "url": "https://github.com/andreigasparovici/node-time-ago-ro/issues"
   },
-  "homepage": "https://github.com/andreigasparovici/node-time-ago#readme",
+  "homepage": "https://github.com/andreigasparovici/node-time-ago-ro#readme",
   "dependencies": {
     "lodash": "^4.15.0"
   },
