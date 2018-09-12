@@ -1,5 +1,7 @@
 Time ago function for node.js **that actually works**! (translated in Romanian).
 
+[![npm version](https://badge.fury.io/js/node-time-ago-ro.svg)](https://badge.fury.io/js/node-time-ago-ro)
+
 Use `timestamp`, `Date Instance`, `iso8601 date` or `any valid parsable date string` as input.
 
 ```
@@ -21,3 +23,5 @@ timeAgo(Date.now() + 3 * 30 * 24 * 60 * 60 * 1000); // "acum 3 luni",
 timeAgo(Date.now() + 13 * 30 * 24 * 60 * 60 * 1000); // "acum un an",
 timeAgo(Date.now() + 3 * 12 * 30 * 24 * 60 * 60 * 1000); // "acum 3 ani"
 ```
+
+Original project: https://github.com/thatisuday/npm-time-ago
