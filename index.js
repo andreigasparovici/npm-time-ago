@@ -38,7 +38,9 @@ var inWords = function(inpDate){
 
   // Get string from number
   function getStrFromNum(string, number){
-    return string.replace(/%d/i, number);
+    if (number < 20)
+      return string.replace(/%d/i, number);
+    return string.replace(/%d/i, number + " de");
   }
 
 

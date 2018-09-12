@@ -1,32 +1,23 @@
-# node-time-ago [![Build Status](https://img.shields.io/travis/thatisuday/node-time-ago.svg?style=flat-square)](https://travis-ci.org/thatisuday/node-time-ago) [![npm downloads](https://img.shields.io/npm/dt/node-time-ago.svg?style=flat-square)](https://www.npmjs.com/package/node-time-ago) [![npm version](https://img.shields.io/npm/v/node-time-ago.svg?style=flat-square)](https://www.npmjs.com/package/node-time-ago) [![npm dependencies](https://img.shields.io/david/thatisuday/node-time-ago.svg?style=flat-square)](https://www.npmjs.com/package/node-time-ago)
-
-
-Simple time ago function for node.js **that actually works**!
-
-***
-
-```
-npm install --save node-time-ago
-```
+Time ago function for node.js **that actually works**! (translated in Romanian).
 
 Use `timestamp`, `Date Instance`, `iso8601 date` or `any valid parsable date string` as input.
 
 ```
-var timeAgo = require('node-time-ago');
+const timeAgo = require('node-time-ago-ro');
 
-timeAgo(new Date()); // just now
-timeAgo(Date().now()); // just now
-timeAgo(new Date().toISOString()); // just now
+timeAgo(new Date()); // chiar acum
+timeAgo(Date().now()); // chiar acum
+timeAgo(new Date().toISOString()); // chiar acum
 
-timeAgo(Date.now() + 35 * 1000); // "35 second ago",
-timeAgo(Date.now() + 65 * 1000); // "a minute ago",
-timeAgo(Date.now() + 3 * 60 * 1000); // "3 minutes ago",
-timeAgo(Date.now() + 65 * 60 * 1000); // "an hour ago",
-timeAgo(Date.now() + 3 * 60 * 60 * 1000); // "3 hours ago",
-timeAgo(Date.now() + 25 * 60 * 60 * 1000); // "a day ago",
-timeAgo(Date.now() + 3 * 24 * 60 * 60 * 1000); // "3 days ago",
-timeAgo(Date.now() + 35 * 24 * 60 * 60 * 1000); // "a month ago",
-timeAgo(Date.now() + 3 * 30 * 24 * 60 * 60 * 1000); // "3 months ago",
-timeAgo(Date.now() + 13 * 30 * 24 * 60 * 60 * 1000); // "a year ago",
-timeAgo(Date.now() + 3 * 12 * 30 * 24 * 60 * 60 * 1000); // "3 years ago"
+timeAgo(Date.now() + 35 * 1000); // "acum 35 de secunde"
+timeAgo(Date.now() + 65 * 1000); // "acum un minut",
+timeAgo(Date.now() + 3 * 60 * 1000); // "acum 3 minute",
+timeAgo(Date.now() + 65 * 60 * 1000); // "acum o oră",
+timeAgo(Date.now() + 3 * 60 * 60 * 1000); // "acum 3 ore",
+timeAgo(Date.now() + 25 * 60 * 60 * 1000); // "acum o zi",
+timeAgo(Date.now() + 3 * 24 * 60 * 60 * 1000); // "acum 3 zile",
+timeAgo(Date.now() + 35 * 24 * 60 * 60 * 1000); // "acum o lună",
+timeAgo(Date.now() + 3 * 30 * 24 * 60 * 60 * 1000); // "acum 3 luni",
+timeAgo(Date.now() + 13 * 30 * 24 * 60 * 60 * 1000); // "acum un an",
+timeAgo(Date.now() + 3 * 12 * 30 * 24 * 60 * 60 * 1000); // "acum 3 ani"
 ```

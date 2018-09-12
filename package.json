@@ -1,5 +1,5 @@
 {
-  "name": "node-time-ago",
+  "name": "node-time-ago-ro",
   "version": "1.0.0",
   "description": "Simple time ago function for node that actually works!",
   "main": "index.js",
@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thatisuday/node-time-ago.git"
+    "url": "git+https://github.com/andreigasparovici/node-time-ago.git"
   },
   "keywords": [
     "time",
     "date"
   ],
-  "author": "Uday Hiwarale <uhiwarale@gmail.com> (https://github.com/thatisuday)",
+  "author": "Andrei Gasparovici <andreigasparovici1@gmail.com> (https://github.com/andreigasparovici)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thatisuday/node-time-ago/issues"
+    "url": "https://github.com/andreigasparovici/node-time-ago/issues"
   },
-  "homepage": "https://github.com/thatisuday/node-time-ago#readme",
+  "homepage": "https://github.com/andreigasparovici/node-time-ago#readme",
   "dependencies": {
     "lodash": "^4.15.0"
   },
